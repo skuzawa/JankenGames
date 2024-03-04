@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+	background-color: orangered;
+}
+
+.images{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	margin:30px;
+}
+
+.selectHand{
+	width: 200px;
+	height:200px;
+	border: 3px solid black;
+}
